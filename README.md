@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Fanpage o Psach</title>
+<style>
+    body {
+        background-image: url("image7.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    body { 
+        color:rgb(84, 195, 255);
+    }
+    button {
+        background-color: rgb(84, 195, 255);/*
+        */
+        color:black; /*
+        */
+        border: none;
+        border-radius: 8px;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+    input, textarea {
+        background-color: rgb(84, 195, 255); /*
+        */ 
+        color:black;
+    }
+    audio {
+        background-color: rgb(84, 195, 255); /*
+        */
+        color: black;
+    }
+</style>
+</head>
+    <header>
+        <h1>Życie Piesków</h1>
+        <p>Strona dla miłośników psów</p>
+        <nav>
+            <ul>
+                <li><a href="#o stronie">O Stronie</a></li>
+                <li><a href="#rasy">Rasy psów</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="https://www.smakipsow.pl" target="_blank">Smaki Psów</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="o stronie">
+            <h2>O Stronie</h2>
+            <p>Witaj na Stronie<strong> Fanpage o Psach</strong>!<br>Kochamy pieski, a ty? Skoro odwiedziłeś tą stronę, to nie ma wątpliwości że ty też je kochasz :)<br>Znajdziesz tu ciekawostki, zdjęcia i porady dla właścicieli czworonogów.</p> 
+            <h3>Dlaczego Pieski są takie fajne?</h3>
+                <ul>
+                    <li>Są lojalne swojemu właścicielowi.</li>
+                    <li>Dają radość i miłość do życia.</li>
+                    <li>Są najleprzymi przyjaciółmi człowieka.</li>
+                </ul>
+        </section>
+        <section id="rasy">
+            <h2>Rasy Psów</h2>
+            <p>Jesteś zainteresowany rasami psów?<br>Podany kilka popularnych ras psów i ich charakterystyczne cechy.</p>
+                <table border="1">
+                    <tr>
+                        <th>Rasa</th>
+                        <th>Pochodzenie</th>
+                        <th>Charakter</th>
+                    </tr>
+                    <tr>
+                        <td>Labrador Retriever</td>
+                        <td>Kanada</td>
+                        <td>Przyjazny, lojalny, energiczny</td>
+                    </tr>
+                    <tr>
+                        <td>Owczarek Niemiecki</td>
+                        <td>Niemcy</td>
+                        <td>odważny, lojalny, czujny</td>
+                    </tr>
+                    <tr>
+                        <td>Shih Tzu</td>
+                        <td>Chiny</td>
+                        <td>Towarzyski, czuły, niezależny</td>
+                    </tr>
+                    <tr>
+                        <td>Border Collie</td>
+                        <td>Wielka Brytania</td>
+                        <td>inteligentny, pracowity, energiczny</td>
+                    </tr>
+                    <tr>
+                        <td>Chihauhau</td>
+                        <td>Meksyk</td>
+                        <td>żywiołowy, wierny, zadziorny</td>
+                    </tr>
+                    <tr>
+                        <td>Husky Syberyjski</td>
+                        <td>Syberia</td>
+                        <td>Niezaleśny, przyjazny, mało posłuszny</td>
+                    </tr>
+                </table>
+        </section>
+        <section id="galeria">
+            <h2>Galeria Naszych Pupili</h2>
+            <img src="./image2.jpg" alt="Śpiący piesek" width="300">
+            <img src="./image3.jpg" alt="Piesek na trawie" width="300">
+            <img src="./image1.jpg" alt="Owczarki Niemieckie" width="300">
+            <p>Polecamy też <a href="https://www.istockphoto.com/pl/obrazy/psy" targer="_blank">Naszą ulubioną stronę</a> po wiecej słodkich zdjęć.</p>
+        </section>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Masz pytanie albo chcesz podzielić się zdjęciem swojego pupila?<br>Napisz do Nas!</p>
+                <form action="#" method="post">
+                    <label for="name">Imię:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="messaage">Wiadomość:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                    <button type="submit">Wyślij</button>
+                </form>
+        </section>
+        <section id="media">
+            <h2>Multimedia</h2>
+            <p>Słodkie szczekanie Psa</p>
+            <audio controls>
+                <source src="german-shepherd-barking-302356.mp3" type="audio/mpeg">Nie wyszło :(.
+            </audio>
+        </section>
+        <aside>
+            <h3>Ciekawostki o Psach</h3>
+            <p>Najstarszy pies miał 31 lat.</p>
+            <p>Pies potrafi rozpoznać ponad 100 różnych komend i słów.</p>
+            <p>Nos kazdego psa ma unikalny wzór - jak ludzki odcisk palca.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy;2025 Pieskie Życie. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
